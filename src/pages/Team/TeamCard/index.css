@@ -1,0 +1,54 @@
+.card-team {
+	overflow: visible;
+	margin-top: 3rem;
+}
+.card {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	min-width: 0;
+	word-wrap: break-word;
+	background-color: #fff;
+	background-clip: border-box;
+	border: 1px solid rgba(33, 40, 50, 0.125);
+	border-radius: 0.35rem;
+	height: 100%;
+	margin-right: 1rem;
+}
+
+.card-team .card-body {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	padding: 1.5rem;
+	text-align: center;
+}
+
+.card-body {
+	flex: 1 1 auto;
+	padding: 1.35rem;
+}
+
+.card-team .card-body .card-team-img {
+	height: 10rem;
+	width: 10rem;
+	border-radius: 100%;
+	margin-top: -4.5rem;
+	box-shadow: 0 0.125rem 0.25rem 0 rgb(33 40 50 / 20%);
+}
+.card-team .card-body .card-team-name {
+	font-weight: 500;
+	font-size: 1.5rem;
+}
+.card-team .card-body .card-team-position {
+	font-style: italic;
+	color: #444;
+	font-size: 1rem;
+	font-weight: bold;
+}
+.card-footer:last-child {
+	border-radius: 0 0 0.35rem 0.35rem;
+}
+.card {
+	box-shadow: 0 0.15rem 1.75rem 0 rgb(33 40 50 / 15%);
+}

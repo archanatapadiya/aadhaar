@@ -1,26 +1,32 @@
-import React from 'react'
+import React, { useEffect } from 'react'
+import Banner from '../../components/Banner'
+
+import Footer from '../../components/Footer'
+import NavBar from '../../components/NavBar'
 import About from '../About'
-import BOT from '../BOT'
-import Careers from '../Careers'
 import Clients from '../Clients'
-import Contact from '../Contact'
+
 import Services from '../Services'
 import Team from '../Team'
 import Technologies from '../Technologies'
 import './index.css'
+import Widget from '../../components/Widget'
 
 function Home() {
+	useEffect(() => {
+		window.scrollTo(0, 0)
+	}, [])
 	return (
 		<>
-			<div id='home'>Home</div>
+			<NavBar />
+			<Banner />
 			<About />
 			<Clients />
-			<Team />
 			<Services />
-			<BOT />
-			<Careers />
-			<Contact />
+			<Team />
 			<Technologies />
+			<Widget />
+			<Footer />
 		</>
 	)
 }

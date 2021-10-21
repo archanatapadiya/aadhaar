@@ -1,0 +1,46 @@
+.team {
+	margin-top: 50px;
+}
+.team p {
+	padding-bottom: 20px;
+}
+.section-header {
+	color: #5d63ae;
+	font-size: 18px;
+	letter-spacing: initial;
+	margin-top: 20px;
+	text-align: center;
+	font-weight: bold;
+}
+.sections-title {
+	color: #5d63ae;
+	font-size: 36px;
+	text-transform: uppercase;
+	font-weight: 700;
+	margin-top: 10px;
+	letter-spacing: 0 !important;
+}
+.show-more-button {
+	height: 40px;
+	width: 120px;
+	border-radius: 5px;
+	border: none;
+	background-color: #5d63ae;
+	color: white;
+	font-size: 15px;
+	font-weight: 500;
+}
+
+.hidden-team {
+	display: flex;
+	margin-right: 10px;
+}
+
+#team .mySwiper {
+	min-height: auto;
+}
+
+.carousel-container {
+	min-height: 700px;
+	width: auto;
+}

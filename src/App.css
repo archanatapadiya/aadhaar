@@ -9,30 +9,63 @@ body {
 	color: rgb(37, 37, 37);
 	box-sizing: border-box;
 }
+html {
+	scroll-behavior: smooth;
+}
 
 code {
-	font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-		monospace;
+	font-family: 'Poppins', sans-serif;
 }
 
 .web-container {
 	min-height: 100vh;
+	width: 100vw;
 	display: flex;
 	flex-direction: column;
+	overflow-x: hidden;
 }
 #about,
-#bot,
-#careers,
-#clients,
-#contact,
+#values,
 #team,
-#technologies,
 #home,
 #services {
 	min-height: 100vh;
-	width: 100%;
+	width: 100vw;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	font-size: 3rem;
+	padding-top: 100px;
+	min-width: 360px;
+}
+
+#bot,
+#clients,
+#contact,
+#careers {
+	min-height: 100vh;
+	width: 100vw;
+}
+
+.progress-header {
+	position: fixed;
+	top: 100px;
+	z-index: 10000000;
+	width: 100vw;
+}
+
+.progress-header h2 {
+	text-align: center;
+}
+
+.progress-container {
+	width: 100vw;
+	height: 5px;
+	background: transparent;
+}
+
+.progress-bar {
+	height: 5px;
+	background: #565dab;
+	width: 0%;
 }

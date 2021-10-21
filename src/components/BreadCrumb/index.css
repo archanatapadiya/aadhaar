@@ -1,0 +1,85 @@
+.breadcrumb-container {
+	width: 100%;
+	background: #f6f6f6;
+	margin-bottom: 2rem;
+	position: relative;
+	margin-top: 100px;
+	padding: 40px 0;
+}
+
+.text-primary {
+	color: #565dab !important;
+	font-size: 2rem;
+	text-transform: capitalize;
+}
+
+.text-primary a {
+	text-decoration: none;
+	color: #6c757d;
+}
+.text-primary a:hover {
+	text-decoration: none;
+	color: #565dab;
+}
+.breadcrumb {
+	padding-left: 0;
+	background: transparent;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 500;
+	display: -webkit-inline-box;
+	display: -ms-inline-flexbox;
+	display: inline-flex;
+}
+
+.p-0 {
+	padding: 0 !important;
+}
+
+.mb-0,
+.my-0 {
+	margin-bottom: 0 !important;
+}
+.breadcrumb .breadcrumb-items {
+	padding-right: 10px;
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+	align-items: center;
+}
+.breadcrumb .breadcrumb-items a {
+	outline: medium none !important;
+	-webkit-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+	text-decoration: none;
+	background-color: transparent;
+	cursor: pointer;
+}
+.breadcrumb .breadcrumb-items a {
+	color: #646f79;
+}
+.breadcrumb-items.active {
+	color: #6c757d;
+}
+
+.breadcrumb .breadcrumb-items a:hover {
+	color: #565dab;
+	text-shadow: none;
+}
+.breadcrumb .breadcrumb-items i {
+	padding-right: 10px;
+	line-height: 20px;
+	font-size: 11px;
+}
+.breadcrumb .active span {
+	color: #565dab;
+	text-transform: capitalize;
+}
+
+@media (max-width: 767px) {
+	.breadcrumb-container {
+		padding: 50px 0;
+	}
+	.text-primary {
+		font-size: 1rem;
+	}
+}

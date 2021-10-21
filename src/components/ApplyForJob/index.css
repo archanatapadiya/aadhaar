@@ -1,0 +1,55 @@
+.custom-file {
+	position: relative;
+	display: inline-block;
+	width: 100%;
+	height: calc(1.5em + 1.75rem);
+	margin-bottom: 0;
+	border: 1px solid #ced4da;
+}
+.custom-file-input {
+	position: relative;
+	z-index: 2;
+	width: 100%;
+	height: calc(1.5em + 1.75rem);
+	margin: 0;
+	opacity: 0;
+}
+
+.custom-file-label {
+	border: 0.0625rem solid #eaedf2;
+	font-size: 1rem;
+	color: #80828a;
+	text-align: left;
+}
+
+.custom-file-label {
+	border: 0.0625rem solid #eaedf2;
+	font-size: 1rem;
+	color: #80828a;
+	text-align: left;
+}
+
+.custom-file-input:lang(en) ~ .custom-file-label::after {
+	content: 'Browse';
+}
+.custom-file-label::after {
+	height: 100%;
+	background-color: #f2f6fc;
+	font-weight: 400;
+	border: 0;
+}
+.custom-file-label::after {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 3;
+	display: block;
+	padding: 0.75rem 0.75rem;
+	line-height: 1.5;
+	color: #fff;
+	content: 'Browse';
+	background-color: #565dab;
+	border-left: inherit;
+	border-radius: 0 0.25rem 0.25rem 0;
+}

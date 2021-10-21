@@ -1,0 +1,178 @@
+/*--------------------------------------------------------------
+# About
+--------------------------------------------------------------*/
+.about .container {
+	padding-bottom: 15px;
+	padding-left: 0px !important;
+}
+.about .count-box {
+	padding: 60px 0;
+	width: 100%;
+}
+#teamEvents {
+	height: auto;
+}
+
+@media (max-width: 745px) {
+	.about .count-box {
+		box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.1);
+	}
+}
+.about .count-box i {
+	font-size: 48px;
+	color: #565dab;
+	line-height: 0;
+	margin-right: 10px;
+}
+.about .count-box span {
+	font-size: 24px;
+	line-height: 25px;
+	font-weight: 700;
+	color: #365870;
+}
+.about .count-box p {
+	padding: 5px 0 0 0;
+	font-weight: bold;
+	font-size: 14px;
+	color: #2e4b5e;
+	margin: 0 auto 0 0 !important;
+}
+.about .count-box a {
+	font-weight: 600;
+	display: block;
+	margin-top: 20px;
+	color: #2e4b5e;
+	font-size: 15px;
+	transition: ease-in-out 0.3s;
+}
+.about .count-box a:hover {
+	color: #477392;
+}
+.about .content {
+	height: 100%;
+}
+.about .content h3 {
+	font-weight: 700;
+	font-size: 24px;
+	color: #565dab;
+}
+.about .content ul {
+	list-style: none;
+	padding: 0;
+}
+.about .content ul li {
+	padding-bottom: 10px;
+	padding-left: 28px;
+	position: relative;
+	color: #444444;
+	display: flex;
+	font-size: 1rem;
+}
+.about .content ul i {
+	font-size: 24px;
+	color: #565dab;
+	position: absolute;
+	left: 0;
+	top: 10px;
+}
+.about .content p:last-child {
+	margin-bottom: 0;
+}
+
+/*--------------------------------------------------------------
+  # About Boxes
+  --------------------------------------------------------------*/
+.about-boxes {
+	background-size: cover;
+	padding: 60px 0 30px 0;
+	position: relative;
+}
+.about-boxes::before {
+	content: '';
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	background: rgba(255, 255, 255, 0.92);
+	z-index: 9;
+}
+.about-boxes .container,
+.about-boxes .container-fluid {
+	position: relative;
+	z-index: 10;
+}
+.about-boxes .card {
+	border-radius: 3px;
+	border: 0;
+	box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+	margin-bottom: 30px;
+}
+.about-boxes .card-icon {
+	text-align: center;
+	margin-top: -32px;
+}
+.about-boxes .card-icon i {
+	font-size: 32px;
+	color: #fff;
+	width: 64px;
+	height: 64px;
+	padding-top: 5px;
+	text-align: center;
+	background-color: #565dab;
+	border-radius: 4px;
+	text-align: center;
+	border: 4px solid #fff;
+	transition: 0.3s;
+	display: inline-block;
+}
+.about-boxes .card-body {
+	padding-top: 12px;
+}
+.about-boxes .card-title {
+	font-weight: 700;
+	text-align: center;
+}
+.about-boxes .card-title a {
+	color: #15222b;
+}
+.about-boxes .card-title a:hover {
+	color: #565dab;
+}
+.about-boxes .card-text {
+	color: #5e5e5e;
+}
+.about-boxes .card:hover .card-icon i {
+	background: #fff;
+	color: #565dab;
+}
+@media (max-width: 1024px) {
+	.about-boxes {
+		background-attachment: scroll;
+	}
+}
+
+.about .video-box {
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	height: 100% !important;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.about .video-box .about-video {
+	width: 100%;
+	height: 100%;
+}
+._3AWTh {
+	top: 100px !important;
+	justify-content: space-between !important;
+}
+._3ZUEV {
+	position: absolute;
+	top: 2rem !important;
+	right: 3rem;
+}

@@ -1,5 +1,37 @@
-/* animation on hover */
-/* 
-.navbar li a:hover {
-	border-bottom: 2px solid red;
-} */
+.navbar-other .nav-link {
+	cursor: pointer;
+}
+
+.navbar-other .nav-item .nav-link > i {
+	font-size: 1.1rem;
+}
+
+.navbar .navbar-other .navbar-nav > .nav-item .nav-link {
+	padding-left: 0;
+	padding-right: 0;
+	color: rgba(0, 0, 0, 0.55) !important;
+}
+
+.navbar .navbar-other .navbar-nav > .nav-item + .nav-item {
+	margin-left: 0.8rem;
+}
+
+.navbar .navbar-other .nav-link {
+	padding-top: 0 !important;
+	padding-bottom: 0 !important;
+}
+
+@media (max-width: 991.98px) {
+	.navbar-other .nav-item.language-select .nav-link {
+		font-size: 1.05rem;
+	}
+	.navbar-other .nav-item .nav-link > i {
+		font-size: calc(1.255rem + 0.06vw);
+	}
+}
+
+@media (max-width: 991.98px) and (min-width: 1200px) {
+	.navbar-other .nav-item .nav-link > i {
+		font-size: 1.3rem;
+	}
+}

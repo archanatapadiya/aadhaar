@@ -1,0 +1,328 @@
+.bot {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+	width: 100%;
+	min-height: 200vh;
+	padding-top: 130px;
+}
+
+/*--------------------------------------------------------------
+# how-we-do
+--------------------------------------------------------------*/
+section {
+	padding: 60px 0;
+	overflow: hidden;
+}
+
+.section-bg {
+	background-color: #f6f6f7;
+}
+
+.how-we-do {
+	padding-bottom: 30px;
+}
+
+.how-we-do-title {
+	display: flex;
+	flex-direction: column;
+	justify-content: between;
+	height: 100%;
+}
+
+.how-we-do h2 {
+	font-size: 32px;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+	position: relative;
+}
+
+.how-we-do p {
+	margin-bottom: 0;
+}
+
+.how-we-do .active {
+	background: red;
+}
+.how-we-do .icon-box {
+	border: 1px solid #565dab;
+	text-align: center;
+	padding: 40px 20px;
+	transition: all ease-in-out 0.3s;
+	background: #fff;
+	border-radius: 10px;
+	width: 100%;
+	cursor: pointer;
+}
+.how-we-do .icon-box .icon {
+	margin: 0 auto;
+	width: 64px;
+	height: 64px;
+	border-radius: 50px;
+	border: 1px solid #565dab;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 20px;
+	transition: ease-in-out 0.3s;
+	color: #565dab;
+}
+.how-we-do .icon-box .icon i {
+	font-size: 28px;
+	color: #565dab;
+}
+.how-we-do .icon-box h4 {
+	font-weight: 700;
+	font-size: 24px;
+	color: #565dab;
+}
+.how-we-do .icon-box h4 a {
+	color: #36343a;
+	transition: ease-in-out 0.3s;
+}
+.how-we-do .icon-box p {
+	line-height: 24px;
+	font-size: 14px;
+	margin-bottom: 0;
+}
+.how-we-do .icon-box:hover {
+	background: #565dab;
+	box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.1);
+}
+.how-we-do .icon-box:hover h4 {
+	color: #fff;
+}
+.how-we-do .icon-box:hover .icon {
+	background: #fff;
+}
+.how-we-do .icon-box:hover .icon i {
+	color: #565dab;
+}
+
+.how-we-do .icon-box h4 {
+	font-size: 20px;
+	font-weight: 700;
+}
+.how-we-do .icon-box i {
+	font-size: 48px;
+	float: left;
+	color: #5846f9;
+}
+.how-we-do .icon-box p {
+	font-size: 15px;
+	color: #848484;
+}
+.how-we-do .image {
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-height: 400px;
+}
+
+.how-we-do .nav-link.tab-item {
+	background: #565dab;
+	color: #fff;
+	border-radius: 10px;
+}
+
+.how-we-do .nav-link.tab-item.active {
+	background: #fff;
+	color: #565dab;
+	border-radius: 10px;
+	border: 1px solid #565dab;
+}
+/*--------------------------------------------------------------
+# Sections General
+--------------------------------------------------------------*/
+section {
+	padding: 60px 0;
+	overflow: hidden;
+}
+
+.section-bg {
+	background-color: #fafdfb;
+}
+
+.section-title {
+	text-align: center;
+	padding: 30px 0;
+	position: relative;
+}
+.section-title h2 {
+	font-size: 32px;
+	font-weight: 700;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+	padding-bottom: 0;
+	color: #565dab;
+	position: relative;
+	z-index: 2;
+}
+.section-title span {
+	position: absolute;
+	top: 30px;
+	color: #565dab20;
+	left: 0;
+	right: 0;
+	z-index: 1;
+	font-weight: 700;
+	font-size: 52px;
+	text-transform: uppercase;
+	line-height: 0;
+}
+.section-title p {
+	margin-bottom: 0;
+	position: relative;
+	z-index: 2;
+}
+@media (max-width: 768px) {
+	.section-title h2 {
+		font-size: 28px;
+		margin-bottom: 15px;
+	}
+	.section-title span {
+		font-size: 38px;
+	}
+}
+@media (max-width: 521px) {
+	.section-title h2 {
+		font-size: 20px;
+		margin-bottom: 15px;
+	}
+	.section-title span {
+		font-size: 18px;
+	}
+}
+
+/*--------------------------------------------------------------
+# HOW CAN WE
+--------------------------------------------------------------*/
+.how-can-we {
+	padding-bottom: 30px;
+}
+.how-can-we .icon-box {
+	margin-bottom: 20px;
+	padding: 30px 15px;
+	border-radius: 6px;
+	background: #fff;
+	cursor: pointer;
+	border: 1px solid #565dab;
+	color: #565dab;
+	position: relative;
+}
+.how-can-we .icon-box i {
+	position: absolute;
+	color: #565dab;
+	font-size: 40px;
+	line-height: 0;
+	top: 50%;
+	left: 10px;
+	width: 10%;
+}
+.how-can-we .icon-box h4 {
+	margin-left: 70px;
+	font-weight: 700;
+	margin-bottom: 15px;
+	font-size: 18px;
+}
+.how-can-we .icon-box h4 a {
+	color: #444444;
+	transition: 0.3s;
+}
+.how-can-we .icon-box .icon-box:hover h4 a {
+	color: #565dab;
+}
+.how-can-we .icon-box p {
+	margin-left: 70px;
+	line-height: 24px;
+	font-size: 14px;
+}
+.how-can-we .icon-box:hover {
+	background: #565dab;
+	box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.1);
+	color: #fff;
+}
+.how-can-we .icon-box:hover h4 {
+	color: #fff;
+}
+.how-can-we .icon-box:hover .icon {
+	background: #fff;
+}
+.how-can-we .icon-box:hover i {
+	color: #fff;
+}
+
+@media (max-width: 1200px) and (min-width: 768px) {
+	.how-can-we .icon-box {
+		height: 210px;
+	}
+}
+@media (min-width: 1200px) {
+	.how-can-we .icon-box {
+		height: 150px;
+	}
+}
+
+/*--------------------------------------------------------------
+# WHAT WE NEED
+--------------------------------------------------------------*/
+.what-we-need {
+	padding-bottom: 30px;
+}
+.what-we-need .icon-box {
+	margin-bottom: 20px;
+	padding: 30px 15px;
+	border-radius: 6px;
+	background: #fff;
+	color: #565dab;
+	border: 1px solid #565dab;
+	cursor: pointer;
+	position: relative;
+}
+.what-we-need .icon-box i {
+	position: absolute;
+	color: #565dab;
+	font-size: 40px;
+	line-height: 0;
+	top: 50%;
+	left: 10px;
+}
+.what-we-need .icon-box h4 {
+	margin-left: 70px;
+	font-weight: 700;
+	margin-bottom: 15px;
+	font-size: 18px;
+}
+.what-we-need .icon-box h4 a {
+	color: #444444;
+	transition: 0.3s;
+}
+
+.what-we-need .icon-box p {
+	margin-left: 70px;
+	line-height: 24px;
+	font-size: 14px;
+}
+.what-we-need .icon-box:hover {
+	color: #fff !important;
+	background: #565dab;
+}
+.what-we-need .icon-box:hover i {
+	color: #fff;
+}
+.what-we-need .icon-box:hover h4 {
+	color: #fff !important;
+}
+@media (max-width: 1200px) and (min-width: 768px) {
+	.what-we-need .icon-box {
+		height: 210px;
+	}
+}
+@media (min-width: 1200px) {
+	.what-we-need .icon-box {
+		height: 150px;
+	}
+}

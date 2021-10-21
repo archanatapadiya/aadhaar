@@ -1,17 +1,28 @@
-import React from 'react';
-import {
-  Bookmark, CheckSquare, ChevronsRight, Feather,
-} from 'react-feather';
-
-/* eslint-disable import/prefer-default-export */
+const year = new Date().getFullYear()
 export const footer = {
-  title: 'footer.title',
-  subtitle: 'footer.subtitle',
-  routes: [
-    { icon: <Bookmark />, title: 'footer.routes.0' },
-    { icon: <CheckSquare />, title: 'footer.routes.1' },
-    { icon: <ChevronsRight />, title: 'footer.routes.2' },
-    { icon: <Feather />, title: 'footer.routes.3' },
-  ],
-  copyright: 'footer.copyright',
-};
+	title: 'PCS IT Solutions Pvt. Ltd.',
+	subtitle: 'Aspire. Create. Understand',
+	copyright: `© ${year} PCS IT Solutions Pvt. Ltd. All rights reserved`,
+	address: {
+		india: {
+			1: 'Perfect and Complete Solutions Inc,',
+			2: '704 Lundy Way,',
+			3: 'Pacifica, CA,',
+			4: '94044',
+		},
+	},
+	email: 'anu@pcsitspl.com',
+	contact: '+ (91) 93597 60780',
+	socialHeading: 'Our Social Networks',
+	quickLinksHeading: 'QUICK LINKS',
+	quickLinks: [
+		'About us',
+		'Clients',
+		'Services',
+		'Team',
+		'Bot',
+		'Technologies',
+		'Careers',
+		'Contact',
+	],
+}

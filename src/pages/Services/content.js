@@ -1,85 +1,52 @@
-import ImgFullStackDevelopment from '../../assets/img/services-img/full-stack-development-main.jpg';
-import ImgDevOps from '../../assets/img/services-img/devops-tools.png';
-import ImgMobile from '../../assets/img/services-img/mobile4.jpg';
-import ImgAnalytics from '../../assets/img/services-img/analytics.png';
-import ImgDataScience from '../../assets/img/services-img/data-science-tools.png';
-import ImgQA from '../../assets/img/services-img/testing tools 3png.png';
+import full_stack from '../../assets/img/services_2/fullstack.png'
+import devops from '../../assets/img/services_2/devops.png'
+import mobile from '../../assets/img/services_2/mobile.png'
+import data_scientist from '../../assets/img/services_2/data_scientist.png'
+import qa from '../../assets/img/services_2/qa.png'
+import ai from '../../assets/img/services_2/ai.png'
 
-// eslint-disable-next-line import/prefer-default-export
 export const services = {
-  title: 'services.title',
-  services: [
-    {
-      image: ImgFullStackDevelopment,
-      alt: 'full-stack',
-      title: 'Full Stack',
-      list: [
-        'services.0.0',
-        'services.0.1',
-        'services.0.2',
-        'services.0.3',
-        'services.0.4',
-        'services.0.5',
-      ],
-    },
-    {
-      image: ImgDevOps,
-      alt: 'dev-ops',
-      title: 'Dev Ops',
-      list: [
-        'services.1.0',
-        'services.1.1',
-        'services.1.2',
-        'services.1.3',
-        'services.1.4',
-      ],
-    },
-    {
-      image: ImgMobile,
-      alt: 'mobile',
-      title: 'Mobile',
-      list: [
-        'services.2.0',
-        'services.2.1',
-        'services.2.2',
-        'services.2.3',
-        'services.2.4',
-        'services.2.5',
-      ],
-    },
-    {
-      image: ImgAnalytics,
-      alt: 'analytics',
-      title: 'Data Engineer',
-      list: [
-        'services.3.0',
-        'services.3.1',
-        'services.3.2',
-        'services.3.3',
-        'services.3.4',
-      ],
-    },
-    {
-      image: ImgDataScience,
-      alt: 'data-science',
-      title: 'AI, ML &amp; Data Science',
-      list: [
-        'services.4.0',
-        'services.4.1',
-        'services.4.2',
-        'services.4.3',
-        'services.4.4',
-      ],
-    },
-    {
-      image: ImgQA,
-      alt: 'qa',
-      title: 'Quality Assurance',
-      list: [
-        'services.5.0',
-        'services.5.1',
-        'services.5.2',
-      ],
-    },
-  ],
-};
+	heading_1: 'what we do',
+	heading_2: 'services',
+	description:
+		'We at Perfect and Complete Solutions constantly evolve our strategies and develop new methods to serve our customers better and ensure that they always stay top in the market ahead of their competitors.',
+}
+
+export const services_info = [
+	{
+		icon: full_stack,
+		title: 'FULL STACK',
+		description:
+			'We develop full-stack web applications which processed, analyzed, and rendered data visually.',
+	},
+	{
+		icon: devops,
+		title: 'DEV OPS',
+		description:
+			'We collaborate with the Development and Operations teams to build, test and deploy software in short, fast bursts.',
+	},
+	{
+		icon: mobile,
+		title: 'MOBILE',
+		description:
+			'We build apps for Android and Apple’s iOS Phone platforms and APIs to support mobile functionality.',
+	},
+	{
+		icon: data_scientist,
+		title: 'DATA ENGINEER',
+		description:
+			'We expertise in designing and building dimensional data models to improve accessibility, efficiency, quality of data.',
+	},
+	{
+		icon: ai,
+		title: 'AI, ML & DATA SCIENCE',
+		description:
+			'We have experience with Information Retrieval, Recommendation Systems or NLP to provide end-to-end ML solution.',
+	},
+	{
+		icon: qa,
+		title: 'QUALITY ASSURANCE',
+		description:
+			'We expertise in developing test plans, test cases, assessing risk and defects managements',
+	},
+]
