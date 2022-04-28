@@ -1,128 +1,138 @@
-import ImgMTC from '../../assets/img/clients/mind-therapy.jpg'
-import ImgDSI from '../../assets/img/clients/dsi.png'
-import ImgCriot from '../../assets/img/clients/criot.png'
-import ImgMyChatri from '../../assets/img/clients/mychatri.jpg'
-import ImgInfiswift from '../../assets/img/clients/infiswift-solutions.jpg'
-import ImgTavisca from '../../assets/img/clients/tavisca.jpeg'
-import ImgEnquero from '../../assets/img/clients/enquero.png'
-import ImgEnergetics from '../../assets/img/clients/energetics-logo.svg'
-import ImgNYT from '../../assets/img/clients/nyt-logo.jpg'
-import ImgAccenture from '../../assets/img/clients/accenture.png'
-import ImgPrizeLogic from '../../assets/img/clients/prizelogic.svg'
-import ImgEllieMae from '../../assets/img/clients/ellie-mae.png'
-import fortifId from '../../assets/img/clients/FortidID.png'
-import mhp from '../../assets/img/clients/mhp.png'
-import usepower from '../../assets/img/clients/usepower.png'
+
+import glenmark from '../../assets/img/clients/glenmark-logo.jpeg'
+import vamsi from '../../assets/img/clients/vamsi-logo.png'
+import shrikrishna from '../../assets/img/clients/shrikrishna-logo.png'
+import balaji from '../../assets/img/clients/balaji_logo.png'
+import keyper from '../../assets/img/clients/keyper-logo.png'
+import rr from '../../assets/img/clients/rr-logo.png'
+import amecal from '../../assets/img/clients/amecal-logo.png'
+import ashwini from '../../assets/img/clients/ashwini-logo.png'
+import balajiSpec from '../../assets/img/clients/balajiSpec-logo.png'
+import hanuman from '../../assets/img/clients/hanuman-logo.png'
+import jakraya from '../../assets/img/clients/jakraya-logo.png'
+import liha from '../../assets/img/clients/liha-logo.png'
+import rohan from '../../assets/img/clients/rohan-logo.png'
+import vaasavaa from '../../assets/img/clients/vaasavaa-logo.png'
+import vikalp from '../../assets/img/clients/vikalp-logo.png'
+import western from '../../assets/img/clients/western-logo.png'
+import sarovar from '../../assets/img/clients/sarovar1-logo.png'
+
 export const clients = {
 	title: 'Our Clients',
 	desc: 'Meet our happy clients',
 	clients: [
 		{
-			url: 'https://www.icemortgagetechnology.com',
-			image: ImgEllieMae,
-			alt: 'ellie-mae',
-			title: 'Ellie Mae',
+			url: 'http://www.balajiamines.com/',
+			image: balaji,
+			alt: 'balaji',
+			title: 'Balaji',
+			desc: 'clients.desc.0',
+		},
+		{
+			url: 'https://glenmarkpharma.com/',
+			image: glenmark,
+			alt: 'glenmark',
+			title: 'Glenmark',
 			desc: 'clients.desc.11',
 		},
 		{
-			url: 'https://fortifid.com',
-			image: fortifId,
-			alt: 'fortifId',
-			title: 'fortifId',
+			url: 'https://www.srikrishnapharma.com/contact/',
+			image: shrikrishna,
+			alt: 'Shri Krishna Pharma',
+			title: 'Shri Krishna Pharma',
 			desc: 'clients.desc.0',
 		},
 		{
-			url: 'https://www.myhomepathway.com',
-			image: mhp,
-			alt: 'My Home Pathway',
-			title: 'Mind Therapy Clinic',
+			url: 'https://www.vamsilabs.com/',
+			image: vamsi,
+			alt: 'vamsi',
+			title: 'vamsi',
 			desc: 'clients.desc.0',
 		},
 		{
-			url: 'https://usepower.com/',
-			image: usepower,
-			alt: 'usepower',
-			title: 'Use Power',
-			desc: 'clients.desc.0',
-		},
-
-		{
-			url: 'https://www.mindtherapyclinic.com',
-			image: ImgMTC,
-			alt: 'mtc',
-			title: 'Mind Therapy Clinic',
+			url: 'https://www.keyperpharma.com/',
+			image: keyper,
+			alt: 'keyper',
+			title: 'Keyper',
 			desc: 'clients.desc.0',
 		},
 		{
-			url: 'https://digitalspacesinc.com',
-			image: ImgDSI,
-			alt: 'dsi',
-			title: 'Digital Spaces Inc',
+			url: 'https://rrgroupinds.co.in/',
+			image: rr,
+			alt: 'rr',
+			title: 'RR industries',
 			desc: 'clients.desc.1',
 		},
 		{
-			url: 'https://www.criotsolutions.com',
-			image: ImgCriot,
-			alt: 'criot',
-			title: 'CRIoT Solutions',
-			desc: 'clients.desc.2',
+			url: 'https://amecalindustries.com/',
+			image: amecal,
+			alt: 'amecal',
+			title: 'Amecal',
+			desc: 'clients.desc.0',
 		},
 		{
-			url: 'https://mychatri.com',
-			image: ImgMyChatri,
-			alt: 'mychatri',
-			title: 'MyChatri',
-			desc: 'clients.desc.3',
+			url: 'http://www.armch.org/',
+			image: ashwini,
+			alt: 'ashwini',
+			title: 'Ashwini',
+			desc: 'clients.desc.0',
 		},
 		{
-			// eslint-disable-next-line no-script-url
-			url: 'javascript:void(0)',
-			image: ImgInfiswift,
-			alt: 'infiswift',
-			title: 'Infiswift Solutions',
-			desc: 'clients.desc.4',
+			url: 'http://balajispecialitychemicals.com/#',
+			image: balajiSpec,
+			alt: 'balajiSpec',
+			title: 'Balaji Speciality',
+			desc: 'clients.desc.0',
 		},
 		{
-			url: 'https://www.tavisca.com',
-			image: ImgTavisca,
-			alt: 'tavisca',
-			title: 'Tavisca',
-			desc: 'clients.desc.5',
+			url: 'https://www.hanumanindustries.co.in/',
+			image: hanuman,
+			alt: 'hanuman',
+			title: 'Hanuman',
+			desc: 'clients.desc.0',
 		},
 		{
-			url: 'https://enquero.com',
-			image: ImgEnquero,
-			alt: 'enquero',
-			title: 'Enquero',
-			desc: 'clients.desc.6',
+			url: 'https://jakrayasugar.com/',
+			image: jakraya,
+			alt: 'jakraya',
+			title: 'Jakraya',
+			desc: 'clients.desc.0',
 		},
 		{
-			url: 'https://energetics-iot.com',
-			image: ImgEnergetics,
-			alt: 'energetics-iot',
-			title: 'Energetics IOT',
-			desc: 'clients.desc.7',
+			url: 'http://www.lihalifescience.com/contact.html',
+			image: liha,
+			alt: 'liha',
+			title: 'Liha',
+			desc: 'clients.desc.0',
 		},
 		{
-			url: 'https://www.nytimes.com',
-			image: ImgNYT,
-			alt: 'nyt',
-			title: 'New York Times',
-			desc: 'clients.desc.8',
+			url: 'https://rohanenterprises.co.in/',
+			image: rohan,
+			alt: 'rohan',
+			title: 'Rohan',
+			desc: 'clients.desc.0',
 		},
 		{
-			url: 'https://www.accenture.com',
-			image: ImgAccenture,
-			alt: 'accenture',
-			title: 'Accenture',
-			desc: 'clients.desc.9',
+			url: 'https://vaasavaa.com/',
+			image: vaasavaa,
+			alt: 'vaasavaa',
+			title: 'Vaasavaa',
+			desc: 'clients.desc.0',
 		},
 		{
-			url: 'https://www.prizelogic.com',
-			image: ImgPrizeLogic,
-			alt: 'prizelogic',
-			title: 'Prize Logic',
-			desc: 'clients.desc.10',
+			url: 'http://vikalpchemtech.com/',
+			image: vikalp,
+			alt: 'vikalp',
+			title: 'Vikalp',
+			desc: 'clients.desc.0',
 		},
+		{
+			url: 'https://www.sarovarhotels.com/balaji-sarovar-premiere-solapur/',
+			image: sarovar,
+			alt: 'sarovar',
+			title: 'Balaji Sarovar',
+			desc: 'clients.desc.0',
+		},
+	
 	],
 }

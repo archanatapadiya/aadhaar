@@ -36,8 +36,9 @@ function Technologies() {
 			<div className='container' data-aos=''>
 				<div className='col-xl-12 text-center mb-4'>
 					<div
-						className='section-title aos-init aos-animate'
-						data-aos='fade-down'>
+						className='section-title'
+						// data-aos='fade-down'
+						>
 						<h2 className='text-center'>{headings.title}</h2>
 						<span className='text-center'>{headings.title}</span>
 						<p>{headings.heading}</p>
@@ -51,18 +52,18 @@ function Technologies() {
 						spaceBetween={20}
 						slidesPerColumnFill='row'
 						grabCursor={true}
-						autoplay={{ delay: 2500 }}
+						autoplay={{ delay: 4500 }}
 						pagination={{
 							clickable: true,
 						}}
 						breakpoints={breakpoints}
 						className='mySwiper'
-						style={{ height: '100%' }}>
+						style={{ height: '100%'}}>
 						{technolgies.map((each, index) => (
 							<SwiperSlide key={index}>
-								<i className={each.icon}></i>
-								<div className='d-flex justify-content-center align-items-center h-100'>
-									<h4>{each.title}</h4>
+								{/* <i className={each.icon}></i> */}
+								<div style={{width: '100%' }} className='d-flex justify-content-center align-items-center h-100'>
+									<h4 style={{color: '#012970'}}>{each.title}</h4>
 								</div>
 							</SwiperSlide>
 						))}

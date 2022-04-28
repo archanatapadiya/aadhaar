@@ -57,7 +57,7 @@ const TeamEvents = () => {
 		<section id='teamEvents'>
 			<div className='section-title aos-init aos-animate' data-aos='fade-down'>
 				<h2 className='text-center'>Team Events</h2>
-				<span>Team Events</span>
+				<span>Gallery</span>
 			</div>
 			<Masonry columns={3} spacing={1}>
 				{imagesList.map((item, index) => (

@@ -8,7 +8,7 @@ function TeamCard(props) {
 				<img src={props.memImage} alt='...' className='card-team-img mb-3' />
 				<div className='card-team-name'>{props.name}</div>
 				<div className='card-team-position mb-3'>{props.role}</div>
-				<p style={{ fontSize: '1.2rem' }} className='mb-0'>
+				<p style={{ fontSize: '0.9rem', textAlign: 'justify' }} className='mb-0'>
 					{props.desc}
 				</p>
 			</div>

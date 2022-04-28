@@ -78,7 +78,7 @@ const Team = () => {
 					</div>
 				</div>
 			</section>
-			<TeamEvents />
+			{/* <TeamEvents /> */}
 		</>
 	)
 }

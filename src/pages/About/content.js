@@ -12,21 +12,21 @@ import values4 from '../../assets/img/about/values-2.svg'
 import values5 from '../../assets/img/about/values5.svg'
 
 export const about = {
-	main: 'About',
+	main: 'AADHAAR LIFE SCIENCES PVT. LTD.',
 	title: 'Who We Are',
+	subTitle: 'OUR STRENGTH IS QUALITATIVE INNOVATION',
+	message: 'NABL ISO/IEC 17025 : 2017 ACCREDITED LABORATORY',
 	desc1:
-		'PCS is a bay area software development company , established in Feb 2015 , a profitable US entity with a subsidiary in India.',
+		'A Contract Research Organization and NABL ISO 17025 accredited Laboratory based in Solapur, Maharashtra, India with an Aim to give Qualitative Innovative products and Provide Testing service to Food & Agriculture, Drug & Pharmaceutical, Chemical & Intermediates, Water testing to all Industrial Sector',
 	desc2:
-		'Creating Value We help businesses create value across the entire product lifecycle engineering cutting-edge solutions and helping mature products evolve as relevant to digitally savvy consumers',
+		'Specialized in Water Testing for Industry, Hospitals, Corporate, Hoteling, Restaurant , Household. ',
 	desc3:
-		'Connecting Dots Through out the ecosystem by bringing together makers and markets to create amazing products.',
-	desc4:
-		'Engineering Talent We help our clients scale their product and engineering functions rapidly leveraging talent in United States and India. ',
+		'An Organization that helps Professors and Students for their projects including Ph.D., M. Pharmacy, B. Pharmacy, M.Sc., B.Sc. Institutes and universities.',
 }
 
 export const counts = {
 	title: 'We Always Try To Understand Users Expectation',
-	desc1: 'Start-ups',
+	desc1: 'Tests',
 	desc2: 'Employees',
 	desc3: 'Happy Clients',
 }
@@ -95,33 +95,23 @@ export const designAndDevelopment = {
 }
 
 export const value = {
-	title: 'Our Values',
+	title: 'MEET AADHAAR',
 	desc: 'Over 6 years in product and software development building 15+ high impact business solutions with faster time to market',
 	valuesList: [
 		{
-			title: 'Faster Time to Market',
-			desc: 'Go to market faster with swift rampups . Top notch talent in emerging and niche technology areas through direct hiring channels.',
+			title: 'Our Story',
+			desc: 'Aadhaar Life Sciences Pvt. Ltd has been established in 2011, completely focused on Formulation and Analytical development and services for New Drug Application (NDA) and Abbreviated New Drug Application (ANDAs). The company specializes in Topical Semi-Solid and Solutions, Oral Liquids and Solid dosage forms',
 			img: values1,
 		},
 		{
-			title: 'Niche Technologies',
-			desc: 'Business centric solutions for IOT, Data Science , Mobile, Cloud.',
+			title: 'Our Vision',
+			desc: 'Aadhaar Life Sciences Pvt. Ltd is a team ofcreative different minds working under oneroof towards one aim - Qualitative   Innovation. The company aims at fully serviced Formulation - Analytical Researchand Development with ICH guidelines,  cGMP and GLP development that strives  to regulatory and non regulatory market    with complete dossier package.',
 			img: values2,
 		},
 		{
-			title: 'E2E Execution',
-			desc: 'Managed Services with end to end execution of projects.',
+			title: 'Our Technology',
+			desc: 'Reverse engineering, Formulation and Analytical Development is the key to innovation, which is done at Aadhaar using highly technical instruments with quality mind and expertise.',
 			img: values3,
-		},
-		{
-			title: 'Flexible Engagements',
-			desc: 'Engagement models suitable for wide variety of organizations requirements..',
-			img: values4,
-		},
-		{
-			title: 'Right Location',
-			desc: 'Compliment existing teams in Europe to scale rapidly with follow the sun approach and cost advantage',
-			img: values5,
 		},
 	],
 }

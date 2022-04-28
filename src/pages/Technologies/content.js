@@ -5,116 +5,115 @@ export const headings = {
 
 export const technolgies = [
   {
-    title: "React",
+    title: "HPLC Method Development",
     icon: "devicon-react-original",
   },
   {
-    title: "Angular",
+    title: "HPLC Method Validation",
     icon: "devicon-angularjs-plain",
   },
   {
-    title: "Vue",
+    title: "GC Method Development",
     icon: "devicon-vuejs-plain",
   },
   {
-    title: "Node Js",
+    title: "GC Method Validation",
     icon: "devicon-nodejs-plain",
   },
   {
-    title: "Python",
+    title: "Moisture Analysis",
     icon: "devicon-python-plain",
   },
   {
-    title: "java",
+    title: "Loss on Drying",
     icon: "devicon-java-plain",
   },
   {
-    title: "mysql",
+    title: "HPLC Assay",
     icon: "devicon-mysql-plain",
   },
   {
-    title: "boot strap",
+    title: "HPLC Purity",
     icon: "devicon-bootstrap-plain",
   },
   {
-    title: "git",
+    title: "GC Purity",
     icon: "devicon-git-plain",
   },
   {
-    title: "bit bucket",
+    title: "GC Assay",
     icon: "devicon-bitbucket-original",
   },
   {
-    title: "aws",
+    title: "Volatile Solvent Analysis",
     icon: "devicon-amazonwebservices-original",
   },
   {
-    title: "mongodb",
+    title: "API Identification",
     icon: "devicon-mongodb-plain",
   },
   {
-    title: "Docker",
+    title: "API Quantification",
     icon: "devicon-docker-plain",
   },
   {
-    title: ".net",
+    title: "Impurities Identification",
     icon: "devicon-dot-net-plain",
   },
-
   {
-    title: "Jenkins",
+    title: "Impurity Analysis",
     icon: "devicon-jenkins-line",
   },
   {
-    title: "ruby",
+    title: "Viscosity Measurement",
     icon: "devicon-ruby-plain",
   },
   {
-    title: "Perl",
+    title: "Colorimetric Analysis",
     icon: "devicon-perl-plain",
   },
   {
-    title: "Android",
+    title: "Water Testing",
     icon: "devicon-android-plain",
   },
   {
-    title: "ios",
+    title: "UV-Vis Analysis",
     icon: "devicon-apple-original",
   },
   {
-    title: "swift",
+    title: "Turbidity Analysis",
     icon: "devicon-swift-plain",
   },
   {
-    title: "React Native",
+    title: "COD",
     icon: "devicon-react-original",
   },
   {
-    title: "Redux",
+    title: "BOD",
     icon: "devicon-redux-original",
   },
   {
-    title: "oracle",
+    title: "Microbial Analysis",
     icon: "devicon-oracle-original",
   },
   {
-    title: "apache",
+    title: "ANDAs",
     icon: "devicon-apache-plain",
   },
   {
-    title: "kafka",
+    title: "NDAs",
     icon: "devicon-apachekafka-original",
   },
   {
-    title: "jupyter",
+    title: "Formulation Development - USA, EU, ROW",
     icon: "devicon-jupyter-plain",
   },
   {
-    title: "tensor flow",
+    title: "Semi-Solids, Solids, Liquids",
     icon: "devicon-tensorflow-original",
   },
   {
-    title: "d3",
+    title: "Manufacturing Batch Record",
     icon: "devicon-d3js-plain",
   },
 ];

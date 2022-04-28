@@ -8,9 +8,11 @@ import AboutUs from './AboutUs'
 function About() {
 	return (
 		<>
+		
 			<AboutUs />
 			<Values />
-			<Features />
+			{/* <Values />
+			<Features /> */}
 		</>
 	)
 }

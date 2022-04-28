@@ -1,5 +1,4 @@
 import React, { useEffect } from 'react'
-import Banner from '../../components/Banner'
 
 import Footer from '../../components/Footer'
 import NavBar from '../../components/NavBar'
@@ -8,9 +7,10 @@ import Clients from '../Clients'
 
 import Services from '../Services'
 import Team from '../Team'
+import Gallery from '../Gallery'
+
 import Technologies from '../Technologies'
 import './index.css'
-import Widget from '../../components/Widget'
 
 function Home() {
 	useEffect(() => {
@@ -19,13 +19,12 @@ function Home() {
 	return (
 		<>
 			<NavBar />
-			<Banner />
 			<About />
 			<Clients />
 			<Services />
 			<Team />
+			{/* <Gallery /> */}
 			<Technologies />
-			<Widget />
 			<Footer />
 		</>
 	)

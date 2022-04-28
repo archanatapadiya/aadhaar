@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from 'react'
 
-import pcsLogo from '../../assets/images/pcs-logo.png'
+import pcsLogo from '../../assets/images/img.png'
+import nablLogo from '../../assets/images/nabl-logo.jpeg'
+
 import './index.css'
 import { NavHashLink as Link } from 'react-router-hash-link'
 
@@ -63,6 +65,7 @@ function NavBar() {
 					isdynamic='true'
 					className='logo'>
 					<img src={pcsLogo} alt='pcs logo' />
+					<img src={nablLogo} alt='pcs logo' />
 				</Link>
 
 				<nav
@@ -93,50 +96,7 @@ function NavBar() {
 							</Link>
 						))}
 					</ul>
-					{/* <div className='d-flex'>
-						<Button
-							id='demo-positioned-button'
-							className='btn d-flex align-self-center me-3'
-							aria-controls='demo-positioned-menu'
-							aria-haspopup='true'
-							aria-expanded={open ? 'true' : undefined}
-							onClick={handleClick}>
-							EN
-							<i class='fas fa-sort-down'></i>
-						</Button>
-						<button
-							className='btn'
-							style={{
-								color: '#fff',
-								background: '#565dab',
-								padding: '0.5rem',
-							}}
-							id='demo-positioned-button'
-							aria-controls='demo-positioned-menu'
-							aria-haspopup='true'
-							aria-expanded={open ? 'true' : undefined}
-							onClick={handleClick}>
-							Contact US
-						</button>
-						<Menu
-							id='demo-positioned-menu'
-							aria-labelledby='demo-positioned-button'
-							anchorEl={anchorEl}
-							open={open}
-							onClose={handleClose}
-							anchorOrigin={{
-								vertical: 'bottom',
-								horizontal: 'right',
-							}}
-							transformOrigin={{
-								vertical: 'top',
-								horizontal: 'right',
-							}}>
-							<MenuItem onClick={handleClose}>EN</MenuItem>
-							<MenuItem onClick={handleClose}>DE</MenuItem>
-							<MenuItem onClick={handleClose}>FR</MenuItem>
-						</Menu>
-					</div> */}
+			
 
 					<i
 						className={

@@ -1,5 +1,7 @@
 {
   "projects": {
-    "default": "perfect108"
-  }
+    "default": "aadhaarlifesciences-8e3b5",
+    "prod": "aadhaarlifesciences-8e3b5"
+  },
+  "targets": {}
 }

@@ -10,14 +10,14 @@ const Values = () => {
 						<h2 className='text-center'>{value.title}</h2>
 						<span className='text-center'>{value.title}</span>
 					</div>
-					<p style={{ fontSize: '1rem' }}>{value.desc}</p>
+					{/* <p style={{ fontSize: '1rem' }}>{value.desc}</p> */}
 				</header>
 
 				<div className='row'>
 					{value.valuesList.map((each, index) => (
 						<div className='col-lg-4 mt-4' key={index}>
 							<div className='box ' data-aos='fade-up' data-aos-delay='200'>
-								<img src={each.img} className='img-fluid' alt='' />
+								{/* <img src={each.img} className='img-fluid' alt='' /> */}
 								<h3>{each.title} </h3>
 								<p>{each.desc}</p>
 							</div>

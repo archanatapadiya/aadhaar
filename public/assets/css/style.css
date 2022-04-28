@@ -509,7 +509,7 @@ i.mobile-nav-toggle.i-white-color {
 --------------------------------------------------------------*/
 .about .content {
 	background-color: #f6f9ff;
-	padding: 40px;
+	padding: 20px;
 }
 .about h3 {
 	font-size: 14px;
@@ -1035,7 +1035,7 @@ i.mobile-nav-toggle.i-white-color {
 }
 .features .feature-box h3 {
 	font-size: 18px;
-	color: #012970;
+	/* color: #012970; */
 	font-weight: 700;
 	margin: 0;
 }
@@ -1759,7 +1759,7 @@ i.mobile-nav-toggle.i-white-color {
 	width: 100%;
 
 	font-size: 3rem;
-	padding-top: 100px;
+	/* padding-top: 100px; */
 }
 .clients .client-logo {
 	padding: 64px;

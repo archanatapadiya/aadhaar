@@ -36,6 +36,7 @@ const ContactUs = () => {
 	}
 
 	function sentEmail(e) {
+		console.log('e', e)
 		e.preventDefault()
 
 		const isValid = formValidation()
@@ -43,10 +44,10 @@ const ContactUs = () => {
 		if (isValid) {
 			emailjs
 				.sendForm(
-					'service_iybbixf',
-					'template_od5vhlh',
+					'service_1zwre8f',
+					'template_m7e3o0j',
 					'#myForm',
-					'user_1ZQjtCiBoh1HFfh3WfmyD'
+					'xwsXM63BVs_nideaC'
 				)
 				.then((res) => {
 					setUserName('')
@@ -74,7 +75,7 @@ const ContactUs = () => {
 							<iframe
 								title='This is a unique title'
 								className='mb-4 mb-lg-0'
-								src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3783.378171967709!2d73.92341131440718!3d18.511805074274783!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2c1f2bf66ef03%3A0x465c38ee790d278b!2sPCS%20It%20Solutions%20Pvt%20Ltd!5e0!3m2!1sen!2sin!4v1633119288768!5m2!1sen!2sin'
+								src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3799.2992068595945!2d75.79749181499311!3d17.777629696111518!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc5cda289ff29b9%3A0xbf1654a1488229bc!2sAadhaar%20Life%20Sciences%20Pvt.%20Ltd.!5e0!3m2!1sen!2sin!4v1649918518083!5m2!1sen!2sin'
 								frameBorder='0'
 								style={{ border: '0', width: '100%', height: '100%' }}
 								allowFullScreen=''></iframe>
