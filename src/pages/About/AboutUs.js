@@ -23,8 +23,8 @@ const AboutUs = () => {
 						
 							className='section-title aos-init aos-animate'
 							data-aos='fade-down'>
-							<h2 style={{fontSize: "3rem"}} className='text-center'>{about.main}</h2>
-							<span style={{fontSize: "3rem"}} className='text-center'>{about.main}</span>
+							<h2 style={{fontSize: "2.7rem"}} className='text-center'>{about.main}</h2>
+							<span style={{fontSize: "2.7rem"}} className='text-center'>{about.main}</span>
 
 							<h4 className='mt-4 text-center'>{about.subTitle}</h4>
 
