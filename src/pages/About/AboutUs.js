@@ -5,24 +5,55 @@ import aboutVideo from '../../assets/videos/about_us1.mp4'
 import Pdf from '../../assets/pdf/NABL.pdf';
 import nablLogo from '../../assets/images/nabl-logo.jpeg'
 import aadhaarLogo from '../../assets/images/img.png'
+import { useState, useEffect } from 'react';
 
+
+function getWindowDimensions() {
+	const { innerWidth: width, innerHeight: height } = window;
+	return {
+	  width,
+	  height
+	};
+  }
+
+  function useWindowDimensions() {
+	const [windowDimensions, setWindowDimensions] = useState(getWindowDimensions());
+  
+	useEffect(() => {
+	  function handleResize() {
+		setWindowDimensions(getWindowDimensions());
+	  }
+  
+	  window.addEventListener('resize', handleResize);
+	  return () => window.removeEventListener('resize', handleResize);
+	}, []);
+  
+	return windowDimensions;
+  }
+
+  
 const AboutUs = () => {
+	const { height, width } = useWindowDimensions();
+
 	return (
 		<section id='about' className='about d-flex flex-column'>
 			<div className='container aos-init aos-animate' data-aos='fade-up'>
 				<div className='row justify-content-center' style={{marginTop: 30}}>
+					{width >= 1000 && (
 					<div className='col-lg-2'>
 							<img
 								src={nablLogo}
 								style={{height: 150, marginTop: 100}}
-								// className='img-fluid banner-animation'
 								alt='hero'
 							/></div>
+						 )}
+						
 					<div className='col-lg-8'>
 						<div
 						
 							className='section-title aos-init aos-animate'
-							data-aos='fade-down'>
+							// data-aos='fade-down'
+							>
 							<h2 style={{fontSize: "2.7rem"}} className='text-center'>{about.main}</h2>
 							<span style={{fontSize: "2.7rem"}} className='text-center'>{about.main}</span>
 
@@ -62,14 +93,15 @@ const AboutUs = () => {
 						</div>
 					</div>
 
+					{width >= 1000 && (
 					<div className='col-lg-2'>
 						
 							<img
 								src={aadhaarLogo}
 								style={{height: 150, marginTop: 100}}
-								// className='img-fluid banner-animation'
 								alt='hero'
 							/></div>
+					)}
 
 				</div>
 

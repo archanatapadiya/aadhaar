@@ -18,17 +18,43 @@ export const functions = {
     "Water Testing",
     "Professor & Students Projects",
   ],
+
+  functionsListMobile: [
+    {
+    desc1: "Contract Research",
+    desc2: "Food and Agriculture",
+    desc3: "Drugs and Pharmaceuticals",
+    desc4: "Chemicals and Intermediates",
+    desc5: "Water Testing",
+    desc6: "Professor & Students Projects",
+    }
+  ],
+
   contractResearchList: [
-    "Preformulation Service",
-    "Formulation Development",
-    "Analytical Development",
-    "Standalone Analytical",
-    "Reformulation and Improvement",
-    "Quality Assurance",
-    "Quality and Regulatory",
-    "Technology Transfer",
-    "Project Management Services",
-    "Products List",
+     "Preformulation Service",
+     "Formulation Development",
+     "Analytical Development",
+     "Standalone Analytical",
+     "Reformulation and Improvement",
+     "Quality Assurance",
+     "Quality and Regulatory",
+     "Technology Transfer",
+     "Project Management Services",
+     "Products List",
+  ],
+  contractResearchListMobile: [
+    {
+    desc1: "Preformulation Service",
+    desc2: "Formulation Development",
+    desc3: "Analytical Development",
+    desc4: "Standalone Analytical",
+    desc5: "Reformulation and Improvement",
+    desc6: "Quality Assurance",
+    desc7: "Quality and Regulatory",
+    desc8: "Technology Transfer",
+    desc9: "Project Management Services",
+    desc10: "Products List",
+    }
   ],
   contractResearchDetail0: [
     {
@@ -300,6 +326,18 @@ export const functions = {
     "Pluses and Peanuts",
   ],
 
+  foodAndAgriListMobile: [
+    {
+    desc1: "Nutritional Value",
+    desc2: "Proximate Analysis",
+    desc3: "Molassess and Sugarcane",
+    desc4: "Preservatives",
+    desc5: "Mangoes",
+    desc6: "Soil",
+    desc7: "Pluses and Peanuts",
+    }
+  ],
+
   foodAgriDetail0: [
     {
       title: "NUTRITIONAL FACTS",
@@ -525,6 +563,8 @@ export const functions = {
 
   waterList: ["Chemical Test", "Microbial Test"],
 
+  waterListMobile: [{desc1: "Chemical Test", desc2: "Microbial Test"}],
+
   waterDetail0: [
     {
       title: "Water Chemical Test",
@@ -567,6 +607,18 @@ export const functions = {
   "Review Articles",
   "Manuscript Wiritng",
   "Analytical Training On Hplc And Gc"
+],
+
+projectListMobile: 
+[
+  {
+desc1: "Hplc - Analytical Method Development & Validation", 
+desc2: "Pharmaceutics - Formulation",
+desc3: "Thesis Writing",
+desc4: "Review Articles",
+desc5: "Manuscript Wiritng",
+desc6: "Analytical Training On Hplc And Gc"
+  }
 ],
 
 projectDetail0: [
