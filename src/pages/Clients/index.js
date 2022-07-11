@@ -1,6 +1,7 @@
 import React from 'react'
 import { clients } from './content'
 import './index.css'
+import { useState, useEffect } from 'react';
 
 import 'swiper/swiper-bundle.css'
 
@@ -8,7 +9,33 @@ import SwiperCore, { Pagination } from 'swiper'
 
 SwiperCore.use([Pagination])
 
+function getWindowDimensions() {
+	const { innerWidth: width, innerHeight: height } = window;
+	return {
+	  width,
+	  height
+	};
+  }
+
+  function useWindowDimensions() {
+	const [windowDimensions, setWindowDimensions] = useState(getWindowDimensions());
+  
+	useEffect(() => {
+	  function handleResize() {
+		setWindowDimensions(getWindowDimensions());
+	  }
+  
+	  window.addEventListener('resize', handleResize);
+	  return () => window.removeEventListener('resize', handleResize);
+	}, []);
+  
+	return windowDimensions;
+  }
+
+
 function Clients() {
+	const { height, width } = useWindowDimensions();
+
 	const openInNewTab = (url) => {
 		const newWindow = window.open(url, '_blank', 'noopener,noreferrer')
 		if (newWindow) newWindow.opener = null
@@ -30,7 +57,8 @@ function Clients() {
 						{clients.clients.map((each, index) => (
 							<div
 								key={index}
-								className='col-12 col-md-4  mx-auto p-1 p-lg-2 w-xs-100 '>
+								className='col-3 col-md-4  mx-auto p-1 p-lg-2 '>
+							{width >= 1000 && (
 								<div className='client-logo'>
 									<img
 										src={each.image}
@@ -39,6 +67,17 @@ function Clients() {
 										onClick={() => openInNewTab(each.url)}
 									/>
 								</div>
+							)}
+{width < 1000 && (
+								<div className='client-logo1'>
+									<img
+										src={each.image}
+										className='img-fluid'
+										alt={each.alt}
+										onClick={() => openInNewTab(each.url)}
+									/>
+								</div>
+)}
 							</div>
 						))}
 					</div>

@@ -55,7 +55,9 @@ const AboutUs = () => {
 							// data-aos='fade-down'
 							>
 							<h2 style={{fontSize: "2.7rem"}} className='text-center'>{about.main}</h2>
+							{width >= 1000 && (
 							<span style={{fontSize: "2.7rem"}} className='text-center'>{about.main}</span>
+							)}
 
 							<h4 className='mt-4 text-center'>{about.subTitle}</h4>
 
@@ -65,7 +67,7 @@ const AboutUs = () => {
 								</a>
 						</div>
 						<div className='row justify-content-center'>
-							<div className='col-12 col-md-6 d-md-flex mx-auto align-items-md-stretch'>
+							<div className='col-6 col-md-6 d-md-flex mx-auto align-items-md-stretch'>
 								<div className='count-box d-flex justify-content-center align-items-center'>
 									<i className='far fa-smile-beam'></i>
 									<div className='d-flex flex-column justify-content-center align-items-center'>
@@ -78,7 +80,7 @@ const AboutUs = () => {
 								</div>
 							</div>
 
-							<div className='col-12 col-md-6 d-md-flex mx-auto align-items-md-stretch'>
+							<div className='col-6 col-md-6 d-md-flex mx-auto align-items-md-stretch'>
 								<div className='count-box d-flex justify-content-center  align-items-center'>
 									<i className='fas fa-user-tie'></i>
 									<div className='d-flex flex-column justify-content-center align-items-center'>
